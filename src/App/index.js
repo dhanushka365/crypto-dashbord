@@ -1,10 +1,16 @@
 import './App.css';
 import Welcome from './WelcomeMessage';
+import AppLayout from './AppLayout';
+import { Component } from 'react';
 
-function App() {
+class App extends Component {
+  render(){
   return (
-  <Welcome name={"SL Crypto Dashboard V1"}/>
+    <AppLayout>
+      <Welcome name={"SL Crypto Dashboard V1"}/>
+    </AppLayout> 
   );
+  }
 }
 
 export default App;
