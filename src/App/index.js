@@ -1,10 +1,9 @@
 import './App.css';
+import Welcome from './WelcomeMessage';
 
 function App() {
   return (
-    <div>
-      Hello World
-    </div>
+  <Welcome name={"SL Crypto Dashboard V1"}/>
   );
 }
 
